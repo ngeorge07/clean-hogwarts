@@ -1,6 +1,6 @@
 "use strict";
 
-fetch("students.json")
+fetch("./students.json")
   .then((response) => response.json())
   .then(fetchData);
 
